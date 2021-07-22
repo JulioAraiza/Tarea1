@@ -8,7 +8,7 @@ input_values = [
         # Inputs
         ["7", "5"],
         # Outputs
-        [re.compile(".*"), re.compile(".*"), re.compile(".*17[.]5")],
+        [re.compile(".*"), re.compile(".*"), re.compile(".*17[.]5$")],
         # Error message
         "Revisa los tipos de dato de tus variables. Revisa la fórmula del área del triángulo."
     ),
@@ -16,7 +16,7 @@ input_values = [
         # Inputs
         ["10", "8"],
         # Outputs
-        [re.compile(".*"), re.compile(".*"), re.compile(".*40[.]?0?")],
+        [re.compile(".*"), re.compile(".*"), re.compile(".*40[.]?0?$")],
         # Error message
         "Revisa los tipos de dato de tus variables. Revisa la fórmula del área del triángulo."
     ),
@@ -24,7 +24,7 @@ input_values = [
         # Inputs
         ["1.5", "2.75"],
         # Outputs
-        [re.compile(".*"), re.compile(".*"), re.compile(".*2[.]0625")],
+        [re.compile(".*"), re.compile(".*"), re.compile(".*2[.]0625$")],
         # Error message
         "Revisa los tipos de dato de tus variables. Revisa la fórmula del área del triángulo."
     ),
@@ -32,7 +32,7 @@ input_values = [
         # Inputs
         ["5", "7"],
         # Outputs
-        [re.compile(".*"), re.compile(".*"), re.compile(".*17[.]5")],
+        [re.compile(".*"), re.compile(".*"), re.compile(".*17[.]5$")],
         # Error message
         "Revisa los tipos de dato de tus variables. Revisa la fórmula del área del triángulo."
     ),
